@@ -29,7 +29,7 @@ minetest.register_node("jdukebox:box1", {
 --	sounds = default.node_sounds_wood_defaults(),
 	--paramtype = "facedir",
 	drop = "jdukebox:disc_1",
-	groups = {oddly_breakable_by_hand=1, flammable=1, choppy=3},
+	groups = {oddly_breakable_by_hand=1, flammable=1, choppy=3, not_in_creative_inventory=1},
 })
 
 minetest.register_node("jdukebox:box2", {
@@ -38,7 +38,7 @@ minetest.register_node("jdukebox:box2", {
 --	sounds = default.node_sounds_wood_defaults(),
 	--paramtype = "facedir",
 	drop = "jdukebox:disc_2",
-	groups = {oddly_breakable_by_hand=1, flammable=1, choppy=3},
+	groups = {oddly_breakable_by_hand=1, flammable=1, choppy=3, not_in_creative_inventory=1},
 })
 
 minetest.register_node("jdukebox:box3", {
@@ -47,7 +47,7 @@ minetest.register_node("jdukebox:box3", {
 --	sounds = default.node_sounds_wood_defaults(),
 	paramtype = "facedir",
 	drop = "jdukebox:disc_3",
-	groups = {oddly_breakable_by_hand=1, flammable=1, choppy=3},
+	groups = {oddly_breakable_by_hand=1, flammable=1, choppy=3, not_in_creative_inventory=1},
 })
 
 minetest.register_node("jdukebox:box4", {
@@ -56,7 +56,7 @@ minetest.register_node("jdukebox:box4", {
 --	sounds = default.node_sounds_wood_defaults(),
 	--paramtype = "facedir",
 	drop = "jdukebox:disc_4",
-	groups = {oddly_breakable_by_hand=1, flammable=1, choppy=3},
+	groups = {oddly_breakable_by_hand=1, flammable=1, choppy=3, not_in_creative_inventory=1},
 })
 
 minetest.register_node("jdukebox:box5", {
@@ -64,7 +64,7 @@ minetest.register_node("jdukebox:box5", {
 	tiles = {"jdukebox_top.png", "deco_wood_oak_planks.png", "jdukebox_side.png"},
 --	sounds = default.node_sounds_wood_defaults(),
 	--paramtype = "facedir",
-	groups = {oddly_breakable_by_hand=1, flammable=1, choppy=3},
+	groups = {oddly_breakable_by_hand=1, flammable=1, choppy=3, not_in_creative_inventory=1},
 	drop = "jdukebox:disc_5",
 })
 
@@ -73,7 +73,7 @@ minetest.register_node("jdukebox:box6", {
 	tiles = {"jdukebox_top.png", "deco_wood_oak_planks.png", "jdukebox_side.png"},
 --	sounds = default.node_sounds_wood_defaults(),
 	--paramtype = "facedir",
-	groups = {oddly_breakable_by_hand=1, flammable=1, choppy=3},
+	groups = {oddly_breakable_by_hand=1, flammable=1, choppy=3, not_in_creative_inventory=1},
 	drop = "jdukebox:disc_6",
 })
 
@@ -82,7 +82,7 @@ minetest.register_node("jdukebox:box7", {
 	tiles = {"jdukebox_top.png", "deco_wood_oak_planks.png", "jdukebox_side.png"},
 --	sounds = default.node_sounds_wood_defaults(),
 	--paramtype = "facedir",
-	groups = {oddly_breakable_by_hand=1, flammable=1, choppy=3},
+	groups = {oddly_breakable_by_hand=1, flammable=1, choppy=3, not_in_creative_inventory=1},
 	drop = "jdukebox:disc_7",
 })
 
@@ -91,7 +91,7 @@ minetest.register_node("jdukebox:box8", {
 	tiles = {"jdukebox_top.png", "deco_wood_oak_planks.png", "jdukebox_side.png"},
 --	sounds = default.node_sounds_wood_defaults(),
 	--paramtype = "facedir",
-	groups = {oddly_breakable_by_hand=1, flammable=1, choppy=3},
+	groups = {oddly_breakable_by_hand=1, flammable=1, choppy=3, not_in_creative_inventory=1},
 	drop = "jdukebox:disc_8",
 })
 
