@@ -28,7 +28,7 @@ minetest.register_craft({
 
 minetest.register_node("jdukebox:box", {
 	description = "Jukebox",
-	tiles = {"jdukebox_top.png", "deco_wood_oak_planks.png", "jdukebox_side.png"},
+	tiles = {"jdukebox_top.png", "default_wood.png", "jdukebox_side.png"},
 	--sounds = default.node_sounds_wood_defaults(),
 	--paramtype = "facedir",
 	groups = {oddly_breakable_by_hand=1, flammable=1, choppy=3},
